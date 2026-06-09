@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue';
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+   gap: 20px;
+}
+.card{
+  width: 300px;
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(138, 138, 138);
+ 
+}
+.card p{
+  margin: 20px 0;
+}
+.card img{
+  object-fit: cover;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+.card button{
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+
+
+}
