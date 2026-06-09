@@ -1,0 +1,16 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: seagreen;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.btn{
+  background-color: skyblue;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
